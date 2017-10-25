@@ -1,4 +1,4 @@
-package com.siyuanren.application.util;
+package com.siyuanren.application.core.model;
 
 import java.io.Serializable;
 

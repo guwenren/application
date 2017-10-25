@@ -1,7 +1,6 @@
 package com.siyuanren.application.web.controller;
 
-import com.siyuanren.application.exception.BaseException;
-import org.springframework.stereotype.Controller;
+import com.siyuanren.application.core.exception.BaseException;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;

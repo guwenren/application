@@ -1,4 +1,4 @@
-package com.siyuanren.application.exception;
+package com.siyuanren.application.core.exception;
 
 public class BaseException extends RuntimeException {
 
