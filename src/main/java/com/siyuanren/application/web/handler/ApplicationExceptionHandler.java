@@ -1,7 +1,7 @@
 package com.siyuanren.application.web.handler;
 
-import com.siyuanren.application.exception.BaseException;
-import com.siyuanren.application.util.Result;
+import com.siyuanren.application.core.exception.BaseException;
+import com.siyuanren.application.core.model.Result;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -16,7 +16,7 @@ public class ApplicationExceptionHandler {
      * 自定义异常
      */
     @ExceptionHandler(BaseException.class)
-    public Result handleRRException(BaseException e) {
+    public Result handleBaseException(BaseException e) {
         Result result = new Result();
         logger.info(e.getMessage());
         return result;
